@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* still working on them */
+/* bg-orange-200 py-2 border border-b-gray-500 w-96 text-center */
+.list {
+    @apply  md:bg-blue-400 md:py-2 md:px-4 md:rounded-3xl;
+}
+.listt {
+    @apply   md:hover:bg-blue-400 md:py-2 md:px-4 md:rounded-3xl;
+}
+.listtt {
+    @apply   md:bg-red-400 md:py-2 md:px-4 md:rounded-3xl;
+}
